@@ -1,0 +1,91 @@
+{
+    "name": "Highlighter",
+    "author": "Semyon Novikov, Nikita Prokopov",
+    "variables":
+    {
+        "active":     "#007ACC",
+        "fg":         "#000",
+        "bg":         "#fff",
+        "blue":       "#f0f9ff",
+        "green":      "#f9fcf2",
+        "dark_green": "#f2fade",
+        "red":        "#ffebeb",
+        "error":      "#fcb1b1",
+        "magenta":    "#fdf7ff",
+        "yellow":     "#fffcd9",
+        "orange":     "#ffdcab",
+    },
+    "globals":
+    {
+        "foreground":                  "var(fg)",
+        "background":                  "var(bg)",
+        "caret":                       "var(active)",
+        "line_highlight":              "#00000010",
+        "misspelling":                 "#f00",
+        "selection":                   "#B4D8FD",
+        "selection_border_width":      "0",
+        "inactive_selection":          "#E0E0E0",
+        "selection_corner_radius":     "2",
+        "highlight":                   "var(orange)",
+        "find_highlight_foreground":   "#000",
+        "find_highlight":              "var(orange)",
+        "brackets_options":            "underline",
+        "brackets_foreground":         "var(active)",
+        "bracket_contents_options":    "underline",
+        "bracket_contents_foreground": "var(active)",
+        "tags_options":                "underline",
+        "tags_foreground":             "var(active)",
+    },
+    "rules":
+    [
+        {"name":       "Comments",
+         "scope":      "comment, punctuation.definition.comment, invalid comment",
+         "foreground": "var(fg)",
+         "background": "var(yellow)"},
+
+        {"name":       "Strings",
+         "scope":      "string",
+         "background": "var(green)"},
+
+        {"name":       "Escapes",
+         "scope":      "constant.character.escape, constant.other.placeholder",
+         "background": "var(dark_green)"},
+
+        {"name":       "Constants",
+         "scope":      "constant, constant.numeric, constant.language, punctuation.definition.constant",
+         "foreground": "var(fg)",
+         "background": "var(magenta)"},
+
+        {"name":       "Definitions",
+         "scope":      "entity.name - entity.name.tag",
+         "background": "var(blue)"},
+
+        {"name":       "Punctuation",
+         "scope":      "punctuation - punctuation.section, keyword.operator, string punctuation.section",
+         "foreground": "var(fg)"},
+
+        {"name":       "Inner brackets",
+         "scope":      "meta.parens meta.parens punctuation.section, meta.parens meta.brackets punctuation.section, meta.parens meta.braces punctuation.section, meta.brackets meta.parens punctuation.section, meta.brackets meta.brackets punctuation.section, meta.brackets meta.braces punctuation.section, meta.braces meta.parens punctuation.section, meta.braces meta.brackets punctuation.section, meta.braces meta.braces punctuation.section",
+         "foreground": "#00000075"},
+
+        {"name":       "Mistakes",
+         "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",
+         "foreground": "#c33",
+         "background": "var(red)"},
+
+        {"scope": "markup.inserted",
+         "foreground": "hsl(100, 50%, 50%)"},
+
+        {"scope": "markup.deleted",
+         "foreground": "hsl(2, 65%, 50%)"},
+
+        {"scope": "markup.changed",
+         "foreground": "hsl(30, 85%, 50%)"},
+
+        {"scope": "markup.ignored",
+         "foreground": "#aaa"},
+
+        {"scope": "markup.untracked",
+         "foreground": "#aaa"}
+    ]
+}
