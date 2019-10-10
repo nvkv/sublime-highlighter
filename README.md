@@ -3,3 +3,8 @@
 A light colour scheme for people who feels adventurous.
 Based on beautiful [Alabaster](https://github.com/tonsky/sublime-scheme-alabaster) colour scheme by Nikita Prokopov.
 
+# Preview
+
+![](https://d3dehtdmp2rwcw.cloudfront.net/ms_179382/hWjIwK2yW4USnvqs6u90o2WfgwWnh2/rust.png?Expires=1570687200&Signature=DQM~Qod5QjLhmwcYC~48jIb3708MSj6Vkf6BiaUBDOI~cCUfwOZuE-~gkPs3A8QVeLb969WgoUTwqiEG3dipfhEyvKqzfuPmMSUleb-9QKs-u7NXHY1mXkbiI~Vg4Aqo9EXPbIkRMNb8y1r6P0Y3TRf8RQgH-9WVcYBp9dwjENxN2OIUkSVuI~J~mnf3TI4UEmOI0UrgbM5KXNxmdNqrQa7LzhEUE6ytdfW~9s6qvmwJqIviCs1au9ttyYH~Rs3temxc8sb5MPOT2N2qpr5i5kRtdQa0cv8GnoGsVm~17jzPEQw8H4fxKdwigbKIWukFLt0sqaw7~pv2ld9ztXeYXw__&Key-Pair-Id=APKAJBCGYQYURKHBGCOA)
+
+![](https://d3dehtdmp2rwcw.cloudfront.net/ms_179382/jvgKoGkmPiyTz38bN7Og80GScjlp7W/%25218%2BM%254000%2B2019-10-10%2B2%2B10.57.43.png?Expires=1570687200&Signature=MpGZbFQYJ2GN7zIaWMYTlzAA-qgXcDRkTkYjdZ~Hr0ijxfdLIxckHkohEDWo2u5aa-Fj9A1LaINSzwrSKKsdr18ldBPK3k0xE~Vf617JkP8AI~WIwi7Ac2fz5bxaLgJZYq6eAUgFcz8UiiI0oiIpfpPGWPiEuFEICw6PEjvRZ3o~YP9Pl8avbUm829klOYyqzGzQ9ys1OSZpaSniFEVUFh10s2bzbT94rnCCcGiQWG24i6BkR~9h6pcc4JWMhiT3bS-vm8PM3KTNbEuArn9rVVvgyTWCtQmp7TTW1xS2TR4wrMMUc7fvjGW5OgZurusXcG6ROJtyw-BNQkkxdrJWxQ__&Key-Pair-Id=APKAJBCGYQYURKHBGCOA)
